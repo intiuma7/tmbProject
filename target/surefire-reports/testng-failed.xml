@@ -8,15 +8,6 @@
   </listeners>
   <test thread-count="5" name="Testing(failed)" verbose="0">
     <classes>
-      <class name="com.tmb.tests.ParaBankLoginTest">
-        <methods>
-          <include name="loginLogoutTest" invocation-numbers="0"/>
-          <include name="setUp"/>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.tmb.tests.ParaBankLoginTest -->
       <class name="com.tmb.tests.ParaBankHomepageTest">
         <methods>
           <include name="setUp"/>
@@ -26,6 +17,15 @@
           <include name="VerifyHomepageandLogoutTest" invocation-numbers="0 1"/>
         </methods>
       </class> <!-- com.tmb.tests.ParaBankHomepageTest -->
+      <class name="com.tmb.tests.ParaBankLoginTest">
+        <methods>
+          <include name="loginLogoutTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+          <include name="beforeSuite"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tmb.tests.ParaBankLoginTest -->
     </classes>
   </test> <!-- Testing(failed) -->
 </suite> <!-- Failed suite [Suite] -->

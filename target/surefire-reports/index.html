@@ -103,17 +103,17 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.tmb.tests.ParaBankHomepageTest" class="method navigator-link" hash-for-method="VerifyHomepageandLogoutTest({password=uma1, testname=VerifyHomepageandLogoutTest, execute=yes, browser=edge, username=uma1, sing...)">VerifyHomepageandLogoutTest({password=uma1, testname=VerifyHomepageandLogoutTest, execute=yes, browser=edge, username=uma1, sing...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.tmb.tests.ParaBankHomepageTest" class="method navigator-link" hash-for-method="VerifyHomepageandLogoutTest({password=uma123, browser=chrome, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma123...)">VerifyHomepageandLogoutTest({password=uma123, browser=chrome, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma123...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.tmb.tests.ParaBankHomepageTest" class="method navigator-link" hash-for-method="VerifyHomepageandLogoutTest({password=uma123, testname=VerifyHomepageandLogoutTest, execute=yes, browser=chrome, username=uma123...)">VerifyHomepageandLogoutTest({password=uma123, testname=VerifyHomepageandLogoutTest, execute=yes, browser=chrome, username=uma123...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.tmb.tests.ParaBankHomepageTest" class="method navigator-link" hash-for-method="VerifyHomepageandLogoutTest({password=uma1, browser=edge, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma1, sing...)">VerifyHomepageandLogoutTest({password=uma1, browser=edge, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma1, sing...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.tmb.tests.ParaBankLoginTest" class="method navigator-link" hash-for-method="loginLogoutTest({password=uma123, testname=loginLogoutTest, execute=yes, browser=chrome, username=uma123, single quo...)">loginLogoutTest({password=uma123, testname=loginLogoutTest, execute=yes, browser=chrome, username=uma123, single quo...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.tmb.tests.ParaBankLoginTest" class="method navigator-link" hash-for-method="loginLogoutTest({password=uma123, browser=chrome, testname=loginLogoutTest, execute=yes, username=uma123, single quo...)">loginLogoutTest({password=uma123, browser=chrome, testname=loginLogoutTest, execute=yes, username=uma123, single quo...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -131,37 +131,67 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.tmb.tests.ParaBankLoginTest</span>
+              <span class="class-name">com.tmb.tests.ParaBankHomepageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginLogoutTest({password=uma123, testname=loginLogoutTest, execute=yes, browser=chrome, username=uma123, single quo...)">
-                  </a> <!-- loginLogoutTest({password=uma123, testname=loginLogoutTest, execute=yes, browser=chrome, username=uma123, single quo...) -->
-                  <span class="method-name">loginLogoutTest</span>
-                  <span class="parameters">({password=uma123, testname=loginLogoutTest, execute=yes, browser=chrome, username=uma123, single quot=})</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@href=&apos;logout.htm&apos;] (tried for 2 second(s) with 500 milliseconds interval)
+                  <a name="VerifyHomepageandLogoutTest({password=uma123, browser=chrome, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma123...)">
+                  </a> <!-- VerifyHomepageandLogoutTest({password=uma123, browser=chrome, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma123...) -->
+                  <span class="method-name">VerifyHomepageandLogoutTest</span>
+                  <span class="parameters">({password=uma123, browser=chrome, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma123, single quot=})</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@href=&apos;openaccount.htm&apos;] (tried for 2 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\intiu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64964}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64964/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4573ad7607b94efe5a618d004325a0dc
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\intiu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65163/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d62075d0fb8cce09e151e9619bef75f
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 	at com.tmb.factories.ExplicitWaitFactory.performExplicitWait(ExplicitWaitFactory.java:26)
 	at com.tmb.pages.BasePage.click(BasePage.java:24)
-	at com.tmb.pages.ParaBankHomePage.clickLogout(ParaBankHomePage.java:21)
-	at com.tmb.tests.ParaBankLoginTest.loginLogoutTest(ParaBankLoginTest.java:35)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 7 stack frames
+	at com.tmb.pages.ParaBankHomePage.clickOpenNewAccount(ParaBankHomePage.java:30)
+	at com.tmb.tests.ParaBankHomepageTest.VerifyHomepageandLogoutTest(ParaBankHomepageTest.java:28)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 9 stack frames
 </div> <!-- stack-trace -->
                   <em>
-(To check the login and logout)                  </em>
+(To check home page and clicking on new account)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyHomepageandLogoutTest({password=uma1, browser=edge, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma1, sing...)">
+                  </a> <!-- VerifyHomepageandLogoutTest({password=uma1, browser=edge, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma1, sing...) -->
+                  <span class="method-name">VerifyHomepageandLogoutTest</span>
+                  <span class="parameters">({password=uma1, browser=edge, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma1, single quot=})</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@href=&apos;openaccount.htm&apos;] (tried for 2 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65171}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\intiu\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65171/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 538a0b83a8ef498d6901c0e134fe1e86
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+	at com.tmb.factories.ExplicitWaitFactory.performExplicitWait(ExplicitWaitFactory.java:26)
+	at com.tmb.pages.BasePage.click(BasePage.java:24)
+	at com.tmb.pages.ParaBankHomePage.clickOpenNewAccount(ParaBankHomePage.java:30)
+	at com.tmb.tests.ParaBankHomepageTest.VerifyHomepageandLogoutTest(ParaBankHomepageTest.java:28)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 9 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(To check home page and clicking on new account)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -169,67 +199,37 @@ Session ID: 4573ad7607b94efe5a618d004325a0dc
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">com.tmb.tests.ParaBankHomepageTest</span>
+              <span class="class-name">com.tmb.tests.ParaBankLoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifyHomepageandLogoutTest({password=uma1, testname=VerifyHomepageandLogoutTest, execute=yes, browser=edge, username=uma1, sing...)">
-                  </a> <!-- VerifyHomepageandLogoutTest({password=uma1, testname=VerifyHomepageandLogoutTest, execute=yes, browser=edge, username=uma1, sing...) -->
-                  <span class="method-name">VerifyHomepageandLogoutTest</span>
-                  <span class="parameters">({password=uma1, testname=VerifyHomepageandLogoutTest, execute=yes, browser=edge, username=uma1, single quot=})</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@href=&apos;openaccount.htm&apos;] (tried for 2 second(s) with 500 milliseconds interval)
+                  <a name="loginLogoutTest({password=uma123, browser=chrome, testname=loginLogoutTest, execute=yes, username=uma123, single quo...)">
+                  </a> <!-- loginLogoutTest({password=uma123, browser=chrome, testname=loginLogoutTest, execute=yes, username=uma123, single quo...) -->
+                  <span class="method-name">loginLogoutTest</span>
+                  <span class="parameters">({password=uma123, browser=chrome, testname=loginLogoutTest, execute=yes, username=uma123, single quot=})</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@href=&apos;logout.htm&apos;] (tried for 2 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.63, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65010}, msedge: {msedgedriverVersion: 131.0.2903.70 (73cf19ceae66..., userDataDir: C:\Users\intiu\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65010/devtoo..., se:cdpVersion: 131.0.2903.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5dc8312cdf490c7d23262c6605b99c4c
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
-	at com.tmb.factories.ExplicitWaitFactory.performExplicitWait(ExplicitWaitFactory.java:26)
-	at com.tmb.pages.BasePage.click(BasePage.java:24)
-	at com.tmb.pages.ParaBankHomePage.clickOpenNewAccount(ParaBankHomePage.java:30)
-	at com.tmb.tests.ParaBankHomepageTest.VerifyHomepageandLogoutTest(ParaBankHomepageTest.java:28)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 7 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(To check home page and clicking on new account)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyHomepageandLogoutTest({password=uma123, testname=VerifyHomepageandLogoutTest, execute=yes, browser=chrome, username=uma123...)">
-                  </a> <!-- VerifyHomepageandLogoutTest({password=uma123, testname=VerifyHomepageandLogoutTest, execute=yes, browser=chrome, username=uma123...) -->
-                  <span class="method-name">VerifyHomepageandLogoutTest</span>
-                  <span class="parameters">({password=uma123, testname=VerifyHomepageandLogoutTest, execute=yes, browser=chrome, username=uma123, single quot=})</span>
-                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[@href=&apos;openaccount.htm&apos;] (tried for 2 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\intiu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64991}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64991/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 51ba5f51761204d40248a394aaa55130
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\intiu\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65131}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65131/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 46284730233cd24331abba9f9870dc61
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
 	at com.tmb.factories.ExplicitWaitFactory.performExplicitWait(ExplicitWaitFactory.java:26)
 	at com.tmb.pages.BasePage.click(BasePage.java:24)
-	at com.tmb.pages.ParaBankHomePage.clickOpenNewAccount(ParaBankHomePage.java:30)
-	at com.tmb.tests.ParaBankHomepageTest.VerifyHomepageandLogoutTest(ParaBankHomepageTest.java:28)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 7 stack frames
+	at com.tmb.pages.ParaBankHomePage.clickLogout(ParaBankHomePage.java:21)
+	at com.tmb.tests.ParaBankLoginTest.loginLogoutTest(ParaBankLoginTest.java:35)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 9 stack frames
 </div> <!-- stack-trace -->
                   <em>
-(To check home page and clicking on new account)                  </em>
+(To check the login and logout)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -296,15 +296,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginLogoutTest')
 data.setCell(0, 2, 'com.tmb.tests.ParaBankLoginTest')
-data.setCell(0, 3, 3749);
+data.setCell(0, 3, 3511);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'VerifyHomepageandLogoutTest')
 data.setCell(1, 2, 'com.tmb.tests.ParaBankHomepageTest')
-data.setCell(1, 3, 2976);
+data.setCell(1, 3, 3123);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'VerifyHomepageandLogoutTest')
 data.setCell(2, 2, 'com.tmb.tests.ParaBankHomepageTest')
-data.setCell(2, 3, 2917);
+data.setCell(2, 3, 2977);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -330,9 +330,9 @@ return data;
             <div class="ignored-class-div">
               <span class="ignored-class-name">com.tmb.tests.ParaBankHomepageTest</span>
               <div class="ignored-methods-div">
-                <span class="ignored-method-name">afterSuite</span>
-                <br/>
                 <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+                <span class="ignored-method-name">afterSuite</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -351,55 +351,55 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp([{password=uma123, browser=chrome, testname=loginLogoutTest, execute=yes, username=uma123, single qu...)</span>
-                <span class="method-start">623 ms</span>
+                <span class="method-start">722 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">loginLogoutTest({password=uma123, testname=loginLogoutTest, execute=yes, browser=chrome, username=uma123, single quo...)</span>
-                <span class="method-start">4455 ms</span>
+                <span class="method-name">loginLogoutTest({password=uma123, browser=chrome, testname=loginLogoutTest, execute=yes, username=uma123, single quo...)</span>
+                <span class="method-start">4253 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">8237 ms</span>
+                <span class="method-start">7780 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tmb.tests.ParaBankHomepageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp([{password=uma1, browser=edge, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma1, sin...)</span>
-                <span class="method-start">8633 ms</span>
+                <span class="method-start">8102 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setUp([{password=uma123, browser=chrome, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma12...)</span>
-                <span class="method-start">8633 ms</span>
+                <span class="method-start">8102 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">VerifyHomepageandLogoutTest({password=uma123, testname=VerifyHomepageandLogoutTest, execute=yes, browser=chrome, username=uma123...)</span>
-                <span class="method-start">10982 ms</span>
+                <span class="method-name">VerifyHomepageandLogoutTest({password=uma123, browser=chrome, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma123...)</span>
+                <span class="method-start">11164 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">VerifyHomepageandLogoutTest({password=uma1, testname=VerifyHomepageandLogoutTest, execute=yes, browser=edge, username=uma1, sing...)</span>
-                <span class="method-start">12502 ms</span>
+                <span class="method-name">VerifyHomepageandLogoutTest({password=uma1, browser=edge, testname=VerifyHomepageandLogoutTest, execute=yes, username=uma1, sing...)</span>
+                <span class="method-start">11643 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">13902 ms</span>
+                <span class="method-start">14290 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">15481 ms</span>
+                <span class="method-start">14622 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.tmb.tests.ParaBankLoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">15831 ms</span>
+                <span class="method-start">14911 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
